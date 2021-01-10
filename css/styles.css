@@ -219,6 +219,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px){
+  .iphone {
+    width: 60%;
+  }
+}
+
 @media (max-width: 1028px) {
   .heading {
     text-align: center;
