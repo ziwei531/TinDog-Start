@@ -1,7 +1,7 @@
 /* first section */
 .heading {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 3.5rem;  
+    font-size: 2.5rem;  
     line-height: 1.5; 
     font-weight: 900;
     color: white;
@@ -42,7 +42,7 @@
 .iphone {
   transform: rotate(25deg);
   position:absolute;
-  left: 10%;
+  width: 60%;
 }
 
 /* second section */
@@ -174,12 +174,60 @@ p {
   position: relative;
 }
 
-/* If the screen size is 601px wide or more */
-@media screen and (min-width: 601px) {
-    .heading {
-      font-size: 2.5rem;
-    }
+/* cta */
+#cta {
+  padding: ;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 10%;
+}
 
+.cta-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.btn-cta {
+  padding-top: 5% ;
+}
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+
+.footer-icons {
+  font-size: 3.5rem;
+}
+
+.fa-facebook{
+  color: black;
+}
+.fa-facebook:hover {
+  color: #ee2727;
+}
+
+.fa-github:hover {
+  color: #ee2727;
+}
+/* If the screen size is 601px wide or more */
+
+@media screen and (min-width: 1028px){
+  .heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1028px) {
+  .heading {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
 
   }
 @media screen and (max-width: 480px) {
